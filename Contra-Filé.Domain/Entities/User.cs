@@ -30,8 +30,8 @@ public class User : BaseEntity
         if (string.IsNullOrWhiteSpace(newName))
             throw new Exception("Nome não pode ser vazio.");
        
-        if (newName.Length < 10 || newName.Length > 50)
-            throw new Exception("A descrição deve ter entre 10 e 50 caracteres.");
+        if (newName.Length < 3 || newName.Length > 50)
+            throw new Exception("O nome deve estar entre 10 e 50 caracteres.");
         
         Name = newName;
     }

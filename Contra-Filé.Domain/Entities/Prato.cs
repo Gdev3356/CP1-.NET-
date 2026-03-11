@@ -24,8 +24,8 @@ public class Prato : BaseEntity
         if (string.IsNullOrWhiteSpace(name)) 
             throw new Exception("O nome não pode ser vazio.");
         
-        if (name.Length < 9 || name.Length > 50)
-            throw new Exception("O nome deve estar entre 9 e 50 caracteres.");
+        if (name.Length < 3 || name.Length > 20)
+            throw new Exception("O nome deve estar entre 3 e 20 caracteres.");
 
         Name = name;
     }
