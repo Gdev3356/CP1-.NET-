@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "VZ6yC07lbrM=",
+  "dgSpecHash": "wkWGg01N8tg=",
   "success": true,
-  "projectFilePath": "C:\\Users\\gkost\\Documents\\2TDSPG\\WebApplication1\\Contra-Filé\\Contra-Filé.Application\\Contra-Filé.Application.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\gkost\\Documents\\2TDSPG\\Contra-Filé\\Contra-Filé.Application\\Contra-Filé.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\gkost\\.nuget\\packages\\bcrypt.net-next\\4.1.0\\bcrypt.net-next.4.1.0.nupkg.sha512"
+  ],
   "logs": []
 }

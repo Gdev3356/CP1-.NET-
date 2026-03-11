@@ -10,8 +10,8 @@ public class UserConfig : BaseEntity
     
     public Guid UserId { get; private set; }
     
-    public UserConfig()
+    public UserConfig(Guid userId)
     {
-        UserId = UserId;
+        UserId = userId;
     }
 }

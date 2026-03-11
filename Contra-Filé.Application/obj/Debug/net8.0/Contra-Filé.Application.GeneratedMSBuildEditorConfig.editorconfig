@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Contra_Filé.Application
-build_property.ProjectDir = C:\Users\gkost\Documents\2TDSPG\WebApplication1\Contra-Filé\Contra-Filé.Application\
+build_property.ProjectDir = C:\Users\gkost\Documents\2TDSPG\Contra-Filé\Contra-Filé.Application\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

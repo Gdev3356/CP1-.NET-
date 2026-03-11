@@ -2,9 +2,9 @@
 
 namespace Contra_Filé.Domain;
 
-public class Avaliacao
+public class Avaliacao : BaseEntity
 {
-    public Guid ContentId { get; private set; }
+    public Guid AvaliacaoId { get; private set; }
     
     public Guid UserId { get; private set; }
     
@@ -12,12 +12,12 @@ public class Avaliacao
     
     public int Score { get; private set; }
 
-    public Avaliacao(Guid contentId, Guid userId, int score, string description)
+    public Avaliacao(Guid avaliacaoId, Guid userId, int score, string description)
     {
-        ContentId = contentId;
+        AvaliacaoId = avaliacaoId;
         UserId = userId;
-        Score = score;
-        Description = description;
+        UpdateScore(score);
+        UpdateDescription(description);
     }
 
     public void UpdateScore(int score)

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\gkost\\Documents\\2TDSPG\\WebApplication1\\Contra-Filé\\Contra-Filé.Domain\\Contra-Filé.Domain.csproj": {}
+    "C:\\Users\\gkost\\Documents\\2TDSPG\\Contra-Filé\\Contra-Filé.Domain\\Contra-Filé.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\gkost\\Documents\\2TDSPG\\WebApplication1\\Contra-Filé\\Contra-Filé.Domain\\Contra-Filé.Domain.csproj": {
+    "C:\\Users\\gkost\\Documents\\2TDSPG\\Contra-Filé\\Contra-Filé.Domain\\Contra-Filé.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gkost\\Documents\\2TDSPG\\WebApplication1\\Contra-Filé\\Contra-Filé.Domain\\Contra-Filé.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\gkost\\Documents\\2TDSPG\\Contra-Filé\\Contra-Filé.Domain\\Contra-Filé.Domain.csproj",
         "projectName": "Contra-Filé.Domain",
-        "projectPath": "C:\\Users\\gkost\\Documents\\2TDSPG\\WebApplication1\\Contra-Filé\\Contra-Filé.Domain\\Contra-Filé.Domain.csproj",
+        "projectPath": "C:\\Users\\gkost\\Documents\\2TDSPG\\Contra-Filé\\Contra-Filé.Domain\\Contra-Filé.Domain.csproj",
         "packagesPath": "C:\\Users\\gkost\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gkost\\Documents\\2TDSPG\\WebApplication1\\Contra-Filé\\Contra-Filé.Domain\\obj\\",
+        "outputPath": "C:\\Users\\gkost\\Documents\\2TDSPG\\Contra-Filé\\Contra-Filé.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -48,6 +48,12 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

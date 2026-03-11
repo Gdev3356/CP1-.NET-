@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\gkost\\Documents\\2TDSPG\\WebApplication1\\Contra-Filé\\Contra-Filé.API\\Contra-Filé.API.csproj": {}
+    "C:\\Users\\gkost\\Documents\\2TDSPG\\Contra-Filé\\Contra-Filé.API\\Contra-Filé.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\gkost\\Documents\\2TDSPG\\WebApplication1\\Contra-Filé\\Contra-Filé.API\\Contra-Filé.API.csproj": {
+    "C:\\Users\\gkost\\Documents\\2TDSPG\\Contra-Filé\\Contra-Filé.API\\Contra-Filé.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gkost\\Documents\\2TDSPG\\WebApplication1\\Contra-Filé\\Contra-Filé.API\\Contra-Filé.API.csproj",
+        "projectUniqueName": "C:\\Users\\gkost\\Documents\\2TDSPG\\Contra-Filé\\Contra-Filé.API\\Contra-Filé.API.csproj",
         "projectName": "Contra-Filé.API",
-        "projectPath": "C:\\Users\\gkost\\Documents\\2TDSPG\\WebApplication1\\Contra-Filé\\Contra-Filé.API\\Contra-Filé.API.csproj",
+        "projectPath": "C:\\Users\\gkost\\Documents\\2TDSPG\\Contra-Filé\\Contra-Filé.API\\Contra-Filé.API.csproj",
         "packagesPath": "C:\\Users\\gkost\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gkost\\Documents\\2TDSPG\\WebApplication1\\Contra-Filé\\Contra-Filé.API\\obj\\",
+        "outputPath": "C:\\Users\\gkost\\Documents\\2TDSPG\\Contra-Filé\\Contra-Filé.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -49,6 +49,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.6.2, )"
